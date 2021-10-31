@@ -12,7 +12,7 @@ app.use(express.static(localPath));
 app.use(express.json());
 
 var corsOptions = {
-  origin: "https://portfolio-isaac-mart.herokuapp.com/",
+  origin: "*",
 };
 
 app.use(cors(corsOptions));
@@ -46,7 +46,7 @@ app.post("/api/projects", async (req, res) => {
 });
 
 app.get('/', (req, res) => {
-    res.status(200).send("API Is Up!... v1.2");
+    res.status(200).send("API Is Up!... v1.1.1");
 })
 
 // set port, listen for requests
