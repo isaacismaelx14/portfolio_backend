@@ -12,7 +12,7 @@ app.use(express.static(localPath));
 app.use(express.json());
 
 var corsOptions = {
-  origin: "https://www.isaacmartinez.dev/",
+  origin: "https://www.isaacmartinez.dev",
 };
 
 app.use(cors(corsOptions));
@@ -46,7 +46,7 @@ app.post("/api/projects", async (req, res) => {
 });
 
 app.get("/", (req, res) => {
-  res.status(200).send("API Isaac Portfolio v0.3");
+  res.status(200).send("API Isaac Portfolio v0.3.1");
 });
 
 // set port, listen for requests
