@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "title": "Store in react 🛒",
+    "description": [
+      "<p>This project is a store created in React.</p>",
+      "<p>Project's implementations:</p>",
+      "<ul>",
+      "<li><b>Authentication</b>: (login and register)</li>",
+      "<li>User role control</li>",
+      "<li>And more...</li>",
+      "</ul>"
+    ],
+    "img": "https://i.imgur.com/UereIWL.jpg",
+    "github": "https://github.com/isaacismaelx14/store-react"
+  }
+]
