@@ -12,7 +12,8 @@ app.use(express.static(localPath));
 app.use(express.json());
 
 var corsOptions = {
-  origin: "https://portfolioim-924c6.web.app/",
+  origin:
+    "https://portfolioim-924c6.web.app/, https://portfolio-isaac-mart.herokuapp.com/",
 };
 
 app.use(cors(corsOptions));
