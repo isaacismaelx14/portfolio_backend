@@ -12,7 +12,7 @@ app.use(express.static(localPath));
 app.use(express.json());
 
 var corsOptions = {
-  origin: "199.36.158.100",
+  origin: "https://www.isaacmartinez.dev/",
 };
 
 app.use(cors(corsOptions));
