@@ -46,7 +46,7 @@ app.post("/api/projects", async (req, res) => {
 });
 
 app.get('/', (req, res) => {
-    res.status(200).send("API Is Up!");
+    res.status(200).send("API Is Up!... v1.2");
 })
 
 // set port, listen for requests
