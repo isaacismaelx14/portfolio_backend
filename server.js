@@ -21,8 +21,8 @@ app.post("/api/send-mail", async function (req, res) {
   try {
     const { body, subject } = req.body;
     await mailer.sendMail({
-      from: "Portfolio Contact <portfolio@example.snet>",
-      to: "isaacismaelx14@gmail.com",
+      from: "Portfolio Contact <portfolio@example.net>",
+      to: "works@isaacmartinez.dev",
       subject,
       text: body,
     });
@@ -46,7 +46,7 @@ app.post("/api/projects", async (req, res) => {
 });
 
 app.get("/", (req, res) => {
-  res.status(200).send("API Isaac Portfolio v0.3.1");
+  res.status(200).send("API Isaac Portfolio v0.3.2");
 });
 
 // set port, listen for requests
