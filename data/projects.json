@@ -2,7 +2,7 @@
   {
     "id": 1,
     "title": "Store in react 🛒",
-    "description": "This project is a store created in React. / Project's implementations: / - Authentication:",
+    "description": "This project is a store created in React. \n Project's implementations: \n - Authentication:",
     "img": "https://i.imgur.com/UereIWL.jpg",
     "github": "https://github.com/isaacismaelx14/store-react",
     "tags": ["react", "webpage", "store", "typescript", "sass", "html"]
