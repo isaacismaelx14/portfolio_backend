@@ -17,15 +17,11 @@
   },
   {
     "id": 2,
-    "title": "Project Manager CLI",
+    "title": "Project Manager CLI ⚙️",
     "description": [
       "<p>With this project I create a Project Manager with you can create all files that your componenet need</p>",
       "<p>Project's implementations:</p>",
-      "<ul>",
-      "<li><b>Authentication</b>: (login and register)</li>",
-      "<li>User role control</li>",
-      "<li>And more...</li>",
-      "</ul>"
+      "<code>create_component <compnent name></code>"
     ],
     "img": "https://i.imgur.com/Rsa7het.png",
     "github": "https://github.com/isaacismaelx14/Project-Manager-CLI",
