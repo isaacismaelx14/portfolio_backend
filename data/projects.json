@@ -21,7 +21,9 @@
     "description": [
       "<p>With this project I create a Project Manager with you can create all files that your componenet need</p>",
       "<p>Project's implementations:</p>",
-      "<kbd>create_component &lt;compnent name&gt;</kbd>"
+      "<div class=\"mb-3\">",
+      "<kbd>create_component &lt;compnent name&gt;</kbd>",
+      "</div>"
     ],
     "img": "https://i.imgur.com/Rsa7het.png",
     "github": "https://github.com/isaacismaelx14/Project-Manager-CLI",
