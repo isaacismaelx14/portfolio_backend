@@ -2,6 +2,7 @@
   {
     "id": 1,
     "title": "Store in react 🛒",
+    "useTitle": true,
     "description": "This project is a store created in React. \n Project's implementations: \n - Authentication:",
     "img": "https://i.imgur.com/UereIWL.jpg",
     "github": "https://github.com/isaacismaelx14/store-react",
@@ -10,7 +11,8 @@
   {
     "id": 2,
     "title": "Project Manager CLI ⚙️",
-    "description": "# Project Manager CLI ⭐ [![\"Pyhton\"](https://img.shields.io/badge/python-3.9.1%20-gray.svg?longCache=true&logo=python&colorB=yellow)](https://www.python.org/downloads/release/python-391/) \n With this script you have a template for create react components with some default files as: \n **Template example:** \n ``` Component \n ├── index.js \n ├── Component.jsx \n ├── Component.css \n ├── Component.test.js \n ``` \n > You can create your own template and have support for `Typescript's components` and to use `scss` or `sass`; you can also select if you want to use an `index file`, `style file`, `test file` and if you want your component `inside a folder` or `no`",
+    "useTitle": false,
+    "description": "# Project Manager CLI ⭐ [![\"Pyhton\"](https://img.shields.io/badge/python-3.9.1%20-gray.svg?longCache=true&logo=python&colorB=yellow)](https://www.python.org/downloads/release/python-391/) \n With this script you have a template for create react components with some default files as: \n\n **Template example:** \n\n ``` Component \n\n ├── index.js\n\n├── Component.jsx\n\n├── Component.css\n\n├── Component.test.js\n\n``` \n > You can create your own template and have support for `Typescript's components` and to use `scss` or `sass`; you can also select if you want to use an `index file`, `style file`, `test file` and if you want your component `inside a folder` or `no`",
     "img": "https://i.imgur.com/Rsa7het.png",
     "github": "https://github.com/isaacismaelx14/Project-Manager-CLI",
     "tags": ["react", "webpage", "store"]
