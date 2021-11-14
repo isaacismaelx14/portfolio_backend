@@ -43,23 +43,22 @@ var express_1 = __importDefault(require("express"));
 var cors_1 = __importDefault(require("cors"));
 var mailer_1 = __importDefault(require("./config/mailer"));
 var projects_json_1 = __importDefault(require("./data/projects.json")); // import project data
-// v0.3.4
 var Server = /** @class */ (function () {
     function Server(apiVer) {
         this.localPath = __dirname + "/dist/";
         this.PORT = process.env.PORT || 4100;
-        this.corsOptions = {
-            origin: this.getOrigin(),
-        };
         this.ISDEV = process.env.NODE_ENV === "production" ? false : true;
+        this.corsOptions = {
+            origin: this.ISDEV
+                ? "http://localhost:8080"
+                : "https://www.isaacmartinez.dev",
+        };
         this.app = (0, express_1.default)();
         this.config();
         this.routes();
         this.API_VERSION = apiVer;
+        console.log(this.corsOptions.origin);
     }
-    Server.prototype.getOrigin = function () {
-        return this.ISDEV ? "*" : "https://www.isaacmartinez.dev";
-    };
     Server.prototype.sendMail = function (req, res) {
         return __awaiter(this, void 0, void 0, function () {
             var _a, body, subject, err_1;

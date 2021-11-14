@@ -8,21 +8,19 @@ export default class Server {
   private localPath = __dirname + "/dist/";
   private API_VERSION: string;
   private PORT = process.env.PORT || 4100;
-  private corsOptions = {
-    origin: this.getOrigin(),
-  };
-
   private ISDEV = process.env.NODE_ENV === "production" ? false : true;
+  private corsOptions = {
+    origin: this.ISDEV
+      ? "http://localhost:8080"
+      : "https://www.isaacmartinez.dev",
+  };
 
   constructor(apiVer: string) {
     this.app = express();
     this.config();
     this.routes();
     this.API_VERSION = apiVer;
-  }
-
-  private getOrigin() {
-    return this.ISDEV ? "*" : "https://www.isaacmartinez.dev";
+    console.log(this.corsOptions.origin);
   }
 
   private async sendMail(req: Request, res: Response) {
