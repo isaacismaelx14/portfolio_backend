@@ -4,7 +4,7 @@
   "description": "Just a backend",
   "main": "./src/index.ts",
   "scripts": {
-    "start": "npm run build && node ./dist/index.js",
+    "start": "node ./dist/index.js",
     "dev": "nodemon --watch \"src/**\" --ext \"ts,json\" --ignore \"src/**/*.spec.ts\" --exec \"ts-node src/index.ts\"",
     "build": "tsc -p ./tsconfig.json"
   },
