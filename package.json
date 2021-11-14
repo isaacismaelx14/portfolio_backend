@@ -1,10 +1,12 @@
 {
   "name": "portfolio_backend",
   "version": "1.0.0",
-  "description": "",
-  "main": "server.js",
+  "description": "Just a backend",
+  "main": "./src/index.ts",
   "scripts": {
-    "start": "node ."
+    "start": "npm run build && node ./dist/index.js",
+    "dev": "nodemon --watch \"src/**\" --ext \"ts,json\" --ignore \"src/**/*.spec.ts\" --exec \"ts-node src/index.ts\"",
+    "build": "tsc -p ./tsconfig.json"
   },
   "keywords": [],
   "author": "",
@@ -14,5 +16,14 @@
     "dotenv": "^10.0.0",
     "express": "^4.17.1",
     "nodemailer": "^6.7.0"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.12",
+    "@types/express": "^4.17.13",
+    "@types/node": "^16.11.7",
+    "@types/nodemon": "^1.19.1",
+    "nodemon": "^2.0.15",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.4.4"
   }
 }

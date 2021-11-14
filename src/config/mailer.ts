@@ -3,7 +3,7 @@ const dotenv = require("dotenv");
 
 dotenv.config();
 
-const transporter = nodemailer.createTransport({
+const mailer = nodemailer.createTransport({
   host: "smtp.gmail.com",
   port: 465,
   secure: true,
@@ -13,6 +13,6 @@ const transporter = nodemailer.createTransport({
   },
 });
 
-transporter.verify().then(() => console.log("ready"));
+mailer.verify().then(() => console.log("ready"));
 
-module.exports = transporter;
+export default mailer;
