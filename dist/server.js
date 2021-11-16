@@ -49,9 +49,7 @@ var Server = /** @class */ (function () {
         this.PORT = process.env.PORT || 4100;
         this.ISDEV = process.env.NODE_ENV === "production" ? false : true;
         this.corsOptions = {
-            origin: this.ISDEV
-                ? "http://localhost:8080"
-                : "https://www.isaacmartinez.dev",
+            origin: this.ISDEV ? "*" : "https://www.isaacmartinez.dev",
         };
         this.app = (0, express_1.default)();
         this.config();
