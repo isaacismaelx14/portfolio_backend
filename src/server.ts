@@ -2,7 +2,6 @@ import express, { Express, Request, Response } from "express";
 import cors from "cors";
 import mailer from "./config/mailer";
 import projects from "./data/projects.json"; // import project data
-
 export default class Server {
   private app: Express;
   private localPath = __dirname + "/dist/";
@@ -10,9 +9,7 @@ export default class Server {
   private PORT = process.env.PORT || 4100;
   private ISDEV = process.env.NODE_ENV === "production" ? false : true;
   private corsOptions = {
-    origin: this.ISDEV
-      ? "http://localhost:8080"
-      : "https://www.isaacmartinez.dev",
+    origin: this.ISDEV ? "*" : "https://www.isaacmartinez.dev",
   };
 
   constructor(apiVer: string) {
