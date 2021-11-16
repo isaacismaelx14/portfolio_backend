@@ -14,7 +14,7 @@
     "title": "Project Manager CLI ⚙️",
     "useTitle": false,
     "description": "# Project Manager CLI ⚙️ \n With this script you have a template for create react components with some default files as: \n **Template example:** \n Component: \n ├── index.js\n├── Component.jsx\n├── Component.css\n├── Component.test.js\n \n > You can create your own template and have support for `Typescript's components` and to use `scss` or `sass`; you can also select if you want to use an `index file`, `style file`, `test file` and if you want your component `inside a folder` or `no`",
-    "summary":"This a CLI with which you can create your react components with all the necessary files, such as style files, test files and some other configurations. Although for the moment it only works with react, in the future I plan to expand it to other framworks and libraries",
+    "summary":"This a CLI with which you can create your react components with all the necessary files, such as style files, test files and some other configurations. Although for the moment it only works with react, in the future I plan to expand it to other framworks and libraries.",
     "img": "https://i.imgur.com/Rsa7het.png",
     "github": "https://github.com/isaacismaelx14/Project-Manager-CLI",
     "tags": ["python", "console", "cli"]
