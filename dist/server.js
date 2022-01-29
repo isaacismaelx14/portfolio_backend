@@ -67,7 +67,7 @@ var Server = /** @class */ (function () {
                         _a = req.body, body = _a.body, subject = _a.subject;
                         return [4 /*yield*/, mailer_1.default.sendMail({
                                 from: "Portfolio Contact <portfolio@example.net>",
-                                to: "works@isaacmartinez.dev",
+                                to: "isaacismaelx14@gmail.com",
                                 subject: subject,
                                 text: body,
                             })];

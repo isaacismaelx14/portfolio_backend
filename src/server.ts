@@ -25,7 +25,7 @@ export default class Server {
       const { body, subject } = req.body;
       await mailer.sendMail({
         from: "Portfolio Contact <portfolio@example.net>",
-        to: "works@isaacmartinez.dev",
+        to: "isaacismaelx14@gmail.com",
         subject,
         text: body,
       });
