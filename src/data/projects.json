@@ -29,7 +29,7 @@
     "summary":"This website is for a Lawyer and surveyor company where I implemented a contact and integration with google maps.",
     "img": "https://i.imgur.com/JyVlhco.png",
     "link": "https://medramart.com/",
-    "tags": ["react", "Google Maps API", "website"],
+    "tags": ["next.js", "Google Maps API", "website", "server-side rendering"],
     "btn":"Visit website"
   }
   
