@@ -26,7 +26,7 @@
     "title": "MedraMart ⚖️",
     "useTitle": true,
     "description": "This website is for a Lawyer and surveyor company where I implemented a contact and integration with google maps.",
-    "summary":"This website is for a Lawyer and surveyor company where I implemented a contact and integration with google maps.",
+    "summary":"This website is for a Lawyer and surveyor company where I implemented a contact and integration with google maps. This project was made with Next JS",
     "img": "https://i.imgur.com/JyVlhco.png",
     "link": "https://medramart.com/",
     "tags": ["next.js", "Google Maps API", "website", "server-side rendering"],
