@@ -6,8 +6,9 @@
     "description": "This project is a store created in React. \n Project's implementations: \n - Authentication:",
     "summary":"This project is a store created in React. Contains a home page, login, registration, and more. I also implemented a connection to an API.",
     "img": "https://i.imgur.com/UereIWL.jpg",
-    "github": "https://github.com/isaacismaelx14/store-react",
-    "tags": ["react", "webpage", "store", "typescript", "sass", "html"]
+    "link": "https://github.com/isaacismaelx14/store-react",
+    "tags": ["react", "webpage", "store", "typescript", "sass", "html"],
+    "btn":"View on github"
   },
   {
     "id": 2,
@@ -16,8 +17,20 @@
     "description": "# Project Manager CLI ⚙️ \n With this script you have a template for create react components with some default files as: \n **Template example:** \n Component: \n ├── index.js\n├── Component.jsx\n├── Component.css\n├── Component.test.js\n \n > You can create your own template and have support for `Typescript's components` and to use `scss` or `sass`; you can also select if you want to use an `index file`, `style file`, `test file` and if you want your component `inside a folder` or `no`",
     "summary":"This a CLI with which you can create your react components with all the necessary files, such as style files, test files and some other configurations. Although for the moment it only works with react, in the future I plan to expand it to other framworks and libraries.",
     "img": "https://i.imgur.com/Rsa7het.png",
-    "github": "https://github.com/isaacismaelx14/Project-Manager-CLI",
-    "tags": ["python", "console", "cli"]
+    "link": "https://github.com/isaacismaelx14/Project-Manager-CLI",
+    "tags": ["python", "console", "cli"],
+    "btn":"View on github"
+  },
+  {
+    "id": 3,
+    "title": "MedraMart ⚖️",
+    "useTitle": true,
+    "description": "This website is for a Lawyer and surveyor company where I implemented a contact and integration with google maps.",
+    "summary":"This website is for a Lawyer and surveyor company where I implemented a contact and integration with google maps.",
+    "img": "https://i.imgur.com/JyVlhco.png",
+    "link": "https://medramart.com/",
+    "tags": ["react", "Google Maps API", "website"],
+    "btn":"Visit website"
   }
   
 ]
